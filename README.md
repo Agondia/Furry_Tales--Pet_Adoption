@@ -60,5 +60,6 @@ Special thanks to CodeFirstGirls for providing the opportunity to work on this p
 
 ## Copyright
 This project is proprietary and all rights are reserved. No part of this project may be reproduced, distributed, or transmitted in any form or by any means, without the prior written permission of the project owner.
+
 ---
 
