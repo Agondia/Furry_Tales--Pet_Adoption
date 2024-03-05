@@ -1,5 +1,5 @@
 # Furry_Tales--Pet_Adoption
- Web Development Project
+ This is a Web Development Project
 
 ---
 
@@ -34,7 +34,7 @@ The Furry Tales webpage is a dedicated section of a pet adoption website, design
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/furry-tales-webpage.git
+   git clone https://github.com/your_username/Furry_Tales--Pet_Adoption.git
    ```
 2. Open the `index.html` file in your web browser to view the webpage locally.
 
@@ -58,7 +58,8 @@ Contributions are welcome! If you'd like to contribute to the development of the
 Special thanks to CodeFirstGirls for providing the opportunity to work on this project and to all contributors for their valuable contributions and feedback.
 
 
-## Copyright
-This project is proprietary and all rights are reserved. No part of this project may be reproduced, distributed, or transmitted in any form or by any means, without the prior written permission of the project owner.
+### Copyright
+-This project is proprietary and all rights are reserved. No part of this project may be reproduced, distributed, or transmitted in any form or by any means, without the prior written permission of the project owner.
+
 ---
 
