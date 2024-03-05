@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eae1df; /* beige */
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  .team-member {
+    background-color: #fcf5ee; /* Light Peach */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .team-member h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #006666; /* Dark Cyan */
+  }
+  .team-member p {
+    margin-bottom: 10px;
+  }
+  .connect-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #009999; /* Cyan */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .connect-btn:hover {
+    background-color: #007070; /* Darker Cyan on Hover */
+  }
+  .team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
