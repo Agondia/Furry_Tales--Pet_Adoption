@@ -46,6 +46,9 @@ body {
   .adopt-btn:hover {
     background-color: #d95700; /* darker orange on hover */
   }
+  h2{
+    text-align: center;
+  }
 
   @media screen and (max-width: 768px) {
     .pet-box {
