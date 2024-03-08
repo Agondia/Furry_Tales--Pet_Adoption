@@ -27,7 +27,7 @@ header {
   flex: 1;
   display: flex;
   justify-content: left;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .header-list {
@@ -43,6 +43,20 @@ header {
 .header-list li {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.header-list li a {
+  
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: black;
+}
+
+.header-list li a:hover {
+ color: #FF6B20; 
+  cursor: pointer; 
+
 }
 
 .header-button {
@@ -387,6 +401,7 @@ a:link {
 
 .story-1-info {
   padding-left: 20px;
+
 }
 
 .story-1-info div {
@@ -399,9 +414,43 @@ a:link {
 .story-1-info p {
   color: black;
   margin-bottom: 0;
+  font-size: 1.2rem;
+  line-height: 1.2;
 }
 
-/* I did not make it responsive because this is going to be a carrousel */
+@media (max-width: 768px) {
+
+  .happy-tails {
+    height: auto; 
+    background-size: contain; 
+  }
+
+  .title-tails {
+    margin-top: 50px; 
+    margin-left: 50px;
+  }
+
+  .story-1 {
+    display: block; 
+    width: 85%; 
+    height: auto; 
+    align-items: center;
+    
+  }
+
+  .story-1-photo {
+    width: 100%; 
+  }
+
+  .story-1-info {
+    padding: 20px; 
+  }
+
+  .story-1-info div,
+  .story-1-info p {
+    font-size: 1.5rem; 
+  }
+}
 
 /* FOster program */
 .foster-program {
@@ -620,9 +669,70 @@ a:link {
 
 
 
+
+
 /* Footer */
 
-footer {
+.footer {
+  box-sizing: border-box;
   background-color: #28522f;
-  height: 150px;
+  color: #eae1df;
+  height: 400px;
+  margin-top: 100px;
+  width: 100%;
+  padding: 80px 15%;
+  /* padding-left: 15%; */
+  /* padding-right: 15%; */
+  display: flex;
+
 }
+
+.footer div {
+  text-align: center;
+}
+
+.col-1 p {
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 1.3em;
+}
+
+.col-2{
+  flex-grow: 2;
+}
+
+.col-2 a{
+  display: block;
+  margin-bottom: 10px;
+  color: #eae1df;
+  font-weight: 300;
+  text-transform: none;
+
+}
+
+.footer div h3 {
+  font-weight: 600;}
+
+  @media (max-width: 768px) {
+    .footer div { /* Stack elements on small screens */
+      text-align: left;
+      margin-bottom: 0; /* Remove spacing between divs on small screens */
+    }
+  
+    .col-1,
+    .col-2 {
+      flex: 1; /* Make columns take up full width on small screens */
+      
+    }
+    .footer div h3 {
+      font-size: 1.2rem;
+      padding-right: 30px;
+    }
+
+    .col-1 p,
+    .col-2 a{
+      font-size: 1rem;
+      padding-right:20px ;
+    }
+    
+  }
