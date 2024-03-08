@@ -66,3 +66,15 @@ buttons.forEach(function(button) {
     linkedInBtn.addEventListener("click", () => connectLinkedIn(member.linkedInUrl));
     githubBtn.addEventListener("click", () => connectGitHub(member.githubUrl));
   });
+
+
+  // TOP BUTTON
+
+// Get the button
+let topButton = document.getElementById("topBtn");
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; //For Safari
+  document.documentElement.scrollTop = 0; //For Chrome, Firefox, IE and Opera
+}
