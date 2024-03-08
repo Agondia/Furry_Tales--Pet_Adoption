@@ -710,6 +710,19 @@ a:link {
 
 }
 
+.top-button {
+  border-style: none;
+  background-color: #28522f;
+  padding: 0;
+  margin: 2em;
+}
+
+.top-button img {
+  height: 50px;
+  width: auto;
+  background-color: #28522f;
+}
+
 .footer div h3 {
   font-weight: 600;}
 
